@@ -7,21 +7,75 @@
     <title></title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <section id="apps">
-        <h1>apps</h1>
-        <div class="line"></div>
-        <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/3oJihaGFx72X9rvn5MSYW56at_LZ8n_hrF7BXgWWwO0/embed"></iframe>
-        <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U3U04HmXisPCzpG48NS-yfYxf7ucU-MWYTOfRGYMRrk/embed"></iframe>
-    </section>
-    <section id="Games">
+    <div class="container">
+        <section id="apps">
+            <h1>apps</h1>
+            <div class="line"></div>
+            <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/3oJihaGFx72X9rvn5MSYW56at_LZ8n_hrF7BXgWWwO0/embed"></iframe>
+            <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U3U04HmXisPCzpG48NS-yfYxf7ucU-MWYTOfRGYMRrk/embed"></iframe>
+        </section>
         <h1>Games</h1>
         <div class="line"></div>
-        <a href="https://studio.code.org/projects/spritelab/3L4wEaw10vNgpyWwEAyev26ah9wyKkWlWpGeqUyADc8" target="_blank"><img src="canvas.png"></a>
-        <a href="https://studio.code.org/projects/spritelab/dcudwtBidqjmYeY3S_eXkZKEbr5ANPX2Un3FoQ-HCpE" target="_blank"><img src="canvas.png22.png"></a>
-    </section>
-</body>
+        <h2>Click on the games to explore</h2>
+        <h5>These games are build in game lab, click on the game to play.</h5>
+        <div class="carousel slide" id="carousel_game">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://studio.code.org/projects/spritelab/3L4wEaw10vNgpyWwEAyev26ah9wyKkWlWpGeqUyADc8" target="_blank"><img class="img-responsive" src="canvas.png"></a>
+                        <div class="carousel-content">
+                            <h2>Winnie the pooh</h2>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://studio.code.org/projects/spritelab/dcudwtBidqjmYeY3S_eXkZKEbr5ANPX2Un3FoQ-HCpE" target="_blank"><img class="img-responsive" src="canvas.png22.png"></a>
+                        <div class="carousel-content">
+                            <h2>Guardian</h2>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <!-- Left and right controls --> <a class="left carousel-control" href="#carousel_game" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#carousel_game" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
 
-</html>
+        </div>
+        <h1>ChatBot</h1>
+        <div class="line"></div>
+        <h2>Click on the playstore apps to explore</h2>
+        <h5>These games are build in app lab, click on the app to view.</h5>
+        <div class="carousel slide" id="carousel_app">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/add553cd-2af1-42cb-8ec8-4a70c944f9b7">
+                        </iframe>
+                        <div class="carousel-content">
+                            <h2>Einstine bot</h2>
+                        </div>
+
+                    </center>
+                </div>
+                <div class="item active">
+                    <center>
+                        <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/78e17a1c-618b-4d66-a856-b7c89b887049">
+                        </iframe>
+                        <div class="carousel-content">
+                            <h2>Friday</h2>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        <!-- Left and right controls --> <a class="left carousel-control" href="#carousel_app" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#carousel_app" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+
+
+
+    </div>
+</body></html>
